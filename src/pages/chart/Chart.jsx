@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Chart from '../../../node_modules/chart.js/src/chart';
+import Chart from '../../../node_modules/chart.js/dist/Chart';
 import moment from 'moment';
 
 class ChartWeather extends Component {
