@@ -1,5 +1,6 @@
 # react-city-bike-system
 React application using  CityBikes API OpenWeatherMap API OpenStreetMap  API.
+Powered by AWS, Kafka (temporarily down), machine learning
  
 ## Getting started
 Instructions for running and using the application.
