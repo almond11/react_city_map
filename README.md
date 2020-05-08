@@ -16,6 +16,8 @@ Tested in browsers: Chrome, Mozilla, Edge, Safari.
 
 ```
 npm i
+npm install --save chart.js
+
 npm start
 ```
 
