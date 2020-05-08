@@ -39,12 +39,21 @@ module.exports = {
         ]
     },
     devServer: {
-		disableHostCheck: true,
-        host: '0.0.0.0',
+host: '0.0.0.0' ,
+	disableHostCheck: true，
+ historyApiFallback: true,
+        open: true,
+        hot: true
+
+/*
+compress: true,
+         host: '0.0.0.0' ,
         port: 3000,
         historyApiFallback: true,
         open: true,
         hot: true
+*/
+
     },
     optimization: {
         minimizer: isDev ? [] : [
