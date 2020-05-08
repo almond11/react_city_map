@@ -18,14 +18,14 @@ const routes = [
     },
     {
         path: '/map',
-        title: 'Map',
+        title: 'Street Map',
         exact: false,
         toMenu: true,
         img: MapIcon,
         component: Map
     }, {
         path: '/chart',
-        title: 'Chart',
+        title: 'Local Event',
         exact: false,
         toMenu: true,
         img: ChartIcon,
